@@ -1,13 +1,12 @@
-import { useState } from 'react'
-
-import './App.css'
+import React, { useState } from "react"
+import { Button } from "@mui/material"
+import "./App.css"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      1
+
+      <Button>22</Button>
     </>
   )
 }
